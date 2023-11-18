@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .formdiv {
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid;
+      }
+
+      .print {
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid;
+        align-items: center;
+      }
+
+      #name {
+        background-color: green;
+        margin: 2px;
+      }
+
+      #gmail {
+        background-color: red;
+        margin: 2px;
+      }
+      #number {
+        background-color: yellow;
+        margin: 2px;
+      }
+      #table_cont {
+        height: 100vh;
+        width: 60vh;
+      }
+      #tablee{
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid;
+        
+      }
+
+      #cols{
+        border: 1px solid;
+      }
+      
+      
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="formdiv">
+      <form action="">
+        <label for="">Name:</label>
+        <input id="namee" type="text" />
+
+        <label for="">Email:</label>
+        <input id="emaill" type="email" />
+
+        <label for="">Phone Number:</label>
+        <input id="numberr" type="number" />
+
+        <button id="btn">Click on me to print</button>
+      </form>
+    </div>
+    <div class="print">
+      <p id="name"></p>
+      <p id="gmail"></p>
+      <p id="number"></p>
+    </div>
+
+    <div id="table_cont">
+
+      </div>
+
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
